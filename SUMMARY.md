@@ -22,8 +22,8 @@
     * [特殊对象和特殊接口](基础语法/特殊对象和特殊接口.md)
 
 * [web前端技术](web前端技术/README.md)
-    * [html5](web前端技术/html5/本地存储.md)
-        * [本地存储](web前端技术/html5/README.md)
+    * [html5](web前端技术/html5/README.md)
+        * [本地存储](web前端技术/html5/本地存储.md)
         * [多媒体扩展](web前端技术/html5/多媒体扩展.md)
         * [服务端提醒推送](web前端技术/html5/服务端提醒推送.md)
         * [数据通信](web前端技术/html5/数据通信.md)
