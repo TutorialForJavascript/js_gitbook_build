@@ -203,55 +203,55 @@ selector {property: value}
 
     全局变量`document`则表示当前的网页DOM,它通常用于构造/改造当前的DOM结构或者元素属性.常见的操作包括:
 
-    | 方法接口                                           | 说明                                                            |
-    | -------------------------------------------------- | --------------------------------------------------------------- |
-    | `createElement()`                                  | 创建元素节点。                                                  |
-    | `createTextNode()`                                 | 创建文本节点。                                                  |
-    | `document.importNode(node:Node object, deep:bool)` | 在dom中克隆一个外部元素进去                                     |
-    | `appendChild()`                                    | 把新的子节点添加到指定节点。                                    |
-    | `insertBefore(newItem,existingItem)`               | 在指定的子节点前面插入新的子节点。                              |
-    | `getElementById()`                                 | 返回带有指定 ID 的元素。                                        |
-    | `getElementsByTagName()`                           | 返回包含带有指定标签名称的所有元素的节点列表（集合/节点数组）。 |
-    | `getElementsByClassName()`                         | 返回包含带有指定类名的所有元素的节点列表。                      |
-    | `removeChild()`                                    | 删除子节点。                                                    |
-    | `replaceChild()`                                   | 替换子节点。                                                    |
-    | `createAttribute()`                                | 创建属性。                                                      |
-    | `getAttribute()`                                   | 返回指定的属性值。                                              |
-    | `setAttribute()`                                   | 把指定属性设置或修改为指定的值                                  |
+| 方法接口                                           | 说明                                                            |
+| -------------------------------------------------- | --------------------------------------------------------------- |
+| `createElement()`                                  | 创建元素节点。                                                  |
+| `createTextNode()`                                 | 创建文本节点。                                                  |
+| `document.importNode(node:Node object, deep:bool)` | 在dom中克隆一个外部元素进去                                     |
+| `appendChild()`                                    | 把新的子节点添加到指定节点。                                    |
+| `insertBefore(newItem,existingItem)`               | 在指定的子节点前面插入新的子节点。                              |
+| `getElementById()`                                 | 返回带有指定 ID 的元素。                                        |
+| `getElementsByTagName()`                           | 返回包含带有指定标签名称的所有元素的节点列表（集合/节点数组）。 |
+| `getElementsByClassName()`                         | 返回包含带有指定类名的所有元素的节点列表。                      |
+| `removeChild()`                                    | 删除子节点。                                                    |
+| `replaceChild()`                                   | 替换子节点。                                                    |
+| `createAttribute()`                                | 创建属性。                                                      |
+| `getAttribute()`                                   | 返回指定的属性值。                                              |
+| `setAttribute()`                                   | 把指定属性设置或修改为指定的值                                  |
 
-    常见的属性包括:
+常见的属性包括:
 
-    | 属性          | 说明                     |
-    | ------------- | ------------------------ |
-    | `innerHTML`   | 节点（元素）的html文本值 |
-    | `parentNode`  | 节点（元素）的父节点     |
-    | `childNodes`  | 节点（元素）的子节点     |
-    | `attributes`  | 节点（元素）的属性节点   |
-    | `textContent` | 节点的 (元素)的文本内容  |
+| 属性          | 说明                     |
+| ------------- | ------------------------ |
+| `innerHTML`   | 节点（元素）的html文本值 |
+| `parentNode`  | 节点（元素）的父节点     |
+| `childNodes`  | 节点（元素）的子节点     |
+| `attributes`  | 节点（元素）的属性节点   |
+| `textContent` | 节点的 (元素)的文本内容  |
 
-    除了方法接口和属性,还有就是元素的事件,常见的有:
+除了方法接口和属性,还有就是元素的事件,常见的有:
     
-    | 事件          | 说明                                 |
-    | ------------- | ------------------------------------ |
-    | `onchange`    | 域的内容被改变。                     |
-    | `onclick`     | 当用户点击某个对象时调用的事件句柄。 |
-    | `ondblclick`  | 当用户双击某个对象时调用的事件句柄。 |
-    | `onerror`     | 在加载文档或图像时发生错误。         |
-    | `onfocus`     | 元素获得焦点。                       |
-    | `onkeydown`   | 某个键盘按键被按下。                 |
-    | `onkeypress`  | 某个键盘按键被按下并松开。           |
-    | `onkeyup`     | 某个键盘按键被松开。                 |
-    | `onload`      | 一张页面或一幅图像完成加载。         |
-    | `onmousedown` | 鼠标按钮被按下。                     |
-    | `onmousemove` | 鼠标被移动。                         |
-    | `onmouseout`  | 鼠标从某元素移开。                   |
-    | `onmouseover` | 鼠标移到某元素之上。                 |
-    | `onmouseup`   | 鼠标按键被松开。                     |
-    | `onselect`    | 文本被选中。                         |
-    | `onsubmit`    | 确认按钮被点击。                     |
-    | `onunload`    | 用户退出页面。                       |
+| 事件          | 说明                                 |
+| ------------- | ------------------------------------ |
+| `onchange`    | 域的内容被改变。                     |
+| `onclick`     | 当用户点击某个对象时调用的事件句柄。 |
+| `ondblclick`  | 当用户双击某个对象时调用的事件句柄。 |
+| `onerror`     | 在加载文档或图像时发生错误。         |
+| `onfocus`     | 元素获得焦点。                       |
+| `onkeydown`   | 某个键盘按键被按下。                 |
+| `onkeypress`  | 某个键盘按键被按下并松开。           |
+| `onkeyup`     | 某个键盘按键被松开。                 |
+| `onload`      | 一张页面或一幅图像完成加载。         |
+| `onmousedown` | 鼠标按钮被按下。                     |
+| `onmousemove` | 鼠标被移动。                         |
+| `onmouseout`  | 鼠标从某元素移开。                   |
+| `onmouseover` | 鼠标移到某元素之上。                 |
+| `onmouseup`   | 鼠标按键被松开。                     |
+| `onselect`    | 文本被选中。                         |
+| `onsubmit`    | 确认按钮被点击。                     |
+| `onunload`    | 用户退出页面。                       |
 
-    其余的事件可以在[w3c的相关文档中找到](http://www.w3school.com.cn/jsref/dom_obj_event.asp)
+其余的事件可以在[w3c的相关文档中找到](http://www.w3school.com.cn/jsref/dom_obj_event.asp)
 
 
 
