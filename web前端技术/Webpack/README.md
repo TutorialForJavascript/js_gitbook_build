@@ -17,7 +17,7 @@ webpack是一个前端项目的打包工具,它会把你的项目当做一个整
 1. 加载器`loader`
 2. 插件`Plugins`
 
-本文的例子代码在<https://github.com/TutorialForJavascript/frontend/tree/master/Webpack/code>,实现一个最简单的仅仅只是显示文字的html页面.但也分为几个步骤
+本文的例子代码在<https://github.com/TutorialForJavascript/frontend-Webpack/tree/master/code>,实现一个最简单的仅仅只是显示文字的html页面.但也分为几个步骤
 
 ## 本体安装
 

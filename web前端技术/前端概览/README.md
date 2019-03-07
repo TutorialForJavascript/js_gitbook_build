@@ -6,6 +6,8 @@
 
 前端技术实际上特指B/S模式中用于定义与服务器交互方式和展示样式的技术.
 
+本章的代码在[项目TutorialForJavascript/frontend-basic](https://github.com/TutorialForJavascript/frontend-basic)中
+
 **本节的代码在C0中**
 
 ## B/S模式的结构

@@ -6,6 +6,4 @@ web前端技术是指的让基于http协议的网页浏览器正确渲染网页�
 + css,用于定义html中元素的样式
 + js,用于操作html中的元素用于渲染动态页面
 
-js在前面已经介绍了,本部分主要是介绍其他两个部分.顺带的,我们也介绍经典常用的前端工具,比如jquery.
-
-本篇的示例代码可以在[本项目](https://github.com/TutorialForJavascript/frontend)中找到
+js在前面已经介绍了,本部分则是介绍其他的方面,主要包括浏览器提供的DOM接口,css,前端项目的预编译技术,以及react

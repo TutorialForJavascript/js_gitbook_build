@@ -40,10 +40,10 @@
         * [复用](web前端技术/Stylus/复用.md)
         * [`@`字符与特殊用法](web前端技术/Stylus/`@`字符与特殊用法.md)
         * [jsApi](web前端技术/Stylus/jsApi.md)
-    * [JQuery](web前端技术/JQuery/README.md)
+    <!-- * [JQuery](web前端技术/JQuery/README.md)
         * [选择器与过滤器](web前端技术/JQuery/选择器与过滤器.md)
         * [jQuery对象的操作](web前端技术/JQuery/jQuery对象的操作.md)
         * [事件](web前端技术/JQuery/事件.md)
         * [AJAX](web前端技术/JQuery/AJAX.md)
-        * [动画效果](web前端技术/JQuery/动画效果.md)
+        * [动画效果](web前端技术/JQuery/动画效果.md) -->
     * [Webpack](web前端技术/Webpack/README.md)
