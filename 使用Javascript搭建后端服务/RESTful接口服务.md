@@ -103,7 +103,6 @@ ctx也提供了几个特殊对象方便我们构造响应.
 
 这个就有点像python中使用`contextlib.contextmanager`写[上下文管理器](https://tutorialforpython.github.io/%E8%AF%AD%E6%B3%95%E7%AF%87/%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/%E5%8D%95%E7%BA%BF%E7%A8%8B%E5%90%8C%E6%AD%A5%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6.html#%E4%BD%BF%E7%94%A8contextmanager).
 
-
 ### 使用插件
 
 和业务逻辑一样,插件也是使用`app.use()`来使用.只是需要注意使用的顺序,即先`use`的在外层,后`use`的在内层.这个在例子[C1]()中也有体现
@@ -118,6 +117,7 @@ ctx也提供了几个特殊对象方便我们构造响应.
 + [koa-body](https://github.com/dlau/koa-body)用于将body体解析为更易懂的形式,比如json这类
 + [koa-jwt](https://github.com/koajs/jwt)jwt认证
 + [koa-pino-logger](https://github.com/pinojs/koa-pino-logger)一个机遇pino的logger,默认的log形式为json更容易被elasticsearch解析
++ [koa2-cors](https://www.npmjs.com/package/koa2-cors)服务端解决跨域问题
 
 ## 一个RESTful的完整例子
 
@@ -159,4 +159,3 @@ ctx也提供了几个特殊对象方便我们构造响应.
 + `config.js`管理配置文件和默认配置
 + `app.js`用于生成app实例
 + `pubsub.js`用于管理redis的发布订阅
-
