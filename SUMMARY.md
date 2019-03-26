@@ -50,3 +50,4 @@
 * [使用Javascript搭建后端服务](使用Javascript搭建后端服务/README.md)
   * [RESTful接口服务](使用Javascript搭建后端服务/RESTful接口服务.md)
   * [Websocket接口服务](使用Javascript搭建后端服务/Websocket接口服务.md)
+  * [GRpc接口服务](使用Javascript搭建后端服务/GRpc接口服务.md)
