@@ -26,10 +26,10 @@
            "all": [ "google"]
         },
         "github": {
-            "url": "https://github.com/TutorialForJavascript/TutorialForJavascript.github.io"
+            "url": "http://blog.hszofficial.site/TutorialForJavascript"
         },
         "github-buttons": {
-            "repo": "TutorialForJavascript/TutorialForJavascript.github.io",
+            "repo": "hsz1273327/TutorialForJavascript",
             "types": ["star","watch","fork"],
             "size": "small"
         },
