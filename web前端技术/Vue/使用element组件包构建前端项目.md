@@ -10,7 +10,7 @@ vue生态下最知名的组件库应该是饿了么的[element](https://element.
 
 ## 一个完整的例子
 
-接下来我们来做一个简单的[英雄指南](https://github.com/TutorialForJavascript/hero-tutorial)项目,这个项目非常经典,是[angular教程](https://angular.cn/tutorial)使用的例子.这个例子我们会贯穿整个这一章节,这边只是先给出第一版--视图部分,因此本文对应这个项目的分支`view-only`.
+接下来我们来做一个简单的[英雄指南](https://github.com/TutorialForJavascript/hero-tutorial)项目,这个项目非常经典,是[angular教程](https://angular.cn/tutorial)使用的例子.这个例子我们会贯穿整个这一章节,这边只是先给出第一版--视图部分,因此本文对应这个项目的分支[view-only](https://github.com/TutorialForJavascript/hero-tutorial/tree/view-only).
 
 后续的路由部分和数据状态部分我们会在接下来介绍
 我们先来规划下这个例子,这个例子会有3个view:

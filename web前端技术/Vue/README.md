@@ -14,7 +14,7 @@ vue.js本体专职页面渲染,大致有如下特点:
 
 ## helloworld
 
-我们先创建一个简单完整的vue项目用于演示.vue.js的脚手架工具是[vue cli](https://cli.vuejs.org/zh/)使用`npm install -g @vue/cli`全局安装.
+我们先创建一个简单完整的vue项目用于演示.这个项目的代码在[github上](https://github.com/TutorialForJavascript/js-vue/tree/master/codes/helloworld).通常为了快速开始我们会使用脚手架.vue.js的脚手架工具是[vue cli](https://cli.vuejs.org/zh/)使用`npm install -g @vue/cli`全局安装.
 
 安装好后我们在目标文件夹下执行`vue create helloworld`
 
