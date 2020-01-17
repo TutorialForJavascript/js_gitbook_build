@@ -41,7 +41,7 @@
     * [Stylus](web前端技术/Stylus/README.md)
         * [注释](web前端技术/Stylus/注释.md)
         * [选择器](web前端技术/Stylus/选择器.md)
-        * [变量与插值](web前端技术/Stylus/变量与插值E.md)
+        * [变量与插值](web前端技术/Stylus/变量与插值.md)
         * [运算符](web前端技术/Stylus/运算符.md)
         * [控制语句](web前端技术/Stylus/控制语句.md)
         * [内置方法](web前端技术/Stylus/内置方法.md)
